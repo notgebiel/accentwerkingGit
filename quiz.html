@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Quiz</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="https://www.facebook.com/bernarduscollege.oudenaarde/photos/a.330947100423243/331374763713810/?__tn__=%3C">
+</head>
+
+<body>
+
+
+	<nav>
+		<ul>
+			<li><a href="information.html">Informatie</a></li>
+			<li><a href="quiz.html" class="active">Vragen</a></li>
+		</ul>
+	</nav>
+	<p class="notes-p" id="notes-p">Uw hebt geen notities opgeslaan</p>
+	<div class="question1-container" id="question1-container">
+		<label for="vraag1" id="label1">Hoe noemt de vulkaan die Pompeii vernietigd heeft?</label>
+	    <input type="text" id="vraag1" class="vraag1">
+	    <input type="submit" onclick="vraag1()">
+
+    </div>
+    <div class="vraag2-container" id="vraag2-container"></div>
+    <script src="script.js"></script>
+    <script src="notesScript.js"></script>
+    <script src="quizScript.js"></script>
+    
+  </body>
+</html>

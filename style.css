@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B33F40;
+}
+
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+body {
+	margin: 0px;
+}
+
+li:last-child {
+	border: none;
+}
+
+.active {
+	background-color: rgb(153, 52, 54);
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+}
+
+.notes-p {
+	top: 200px;
+}
+
+/*.question1-container {
+	margin: auto;
+	width: 60%;
+}*/
+
+.vraag1 {
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
